@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+/* This class holds all of the AMA data obtained from Reddit in the Main Activity. */
+
 public class AmaPage implements Serializable {
 
     //Variable declaration

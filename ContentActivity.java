@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 import java.security.Key;
 
+/* This Class is the activity that appears when a button is pressed from the main activity, and the program
+ * wants to display the AMAPage data. */
+
 public class ContentActivity extends AppCompatActivity {
 
     AmaPage viewedPost;

@@ -36,6 +36,11 @@ import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
 
+/* This Class is the activity that appears when the app is first loaded. It has a text edit field to enter
+ * a name, and a button to start the search on google for any AMA's on Reddit associated with the name.
+ * Once the search is complete, a scroll list is filled with buttons. The buttons each open a Content Activity
+ * With their respective AMAPage data. */
+
 public class MainActivity extends AppCompatActivity {
     //Interactive layout objects
     Button getLinkBtn;
